@@ -1,0 +1,42 @@
+.breadcrumbs {
+  font-family: "Gotham Pro";
+  font-style: italic;
+  font-size: 13px;
+  color: #656464;
+  margin-left: 5px;
+}
+
+.breadcrumbs__link {
+  text-decoration: underline;
+  color: #f06499;
+  display: inline-block;
+}
+
+.breadcrumbs__item {
+  margin-right: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.breadcrumbs__item:before {
+  content: "/";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  color: #f06499;
+}
+
+.breadcrumbs__item-current:before {
+  content: "/";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  color: #656464;
+}
+
+.breadcrumbs__item:nth-child(1):before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

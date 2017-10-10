@@ -1,0 +1,35 @@
+.main-header__contacts {
+  width: 201px;
+  float: right;
+  display: inline-block;
+  text-align: right;
+}
+
+.contacts__phone {
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 21px;
+  color: #ffffff;
+  display: block;
+  margin-top: 14px;
+
+}
+
+.contacts__schedule {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  color: #ec1e79;
+  text-decoration: underline;
+  /*margin-top: 0px;*/
+  display: block;
+  margin-left: 86px;
+}
+
+.contacts__schedule:hover {
+  color: #769dcd;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+}

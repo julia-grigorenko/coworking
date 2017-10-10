@@ -1,0 +1,63 @@
+.dropdown__schedule {
+  position: relative;
+}
+
+.schedule__visual-triangle {
+  width: 0px;
+  height: 0px;
+  border-top: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom:  11px solid #ffffff;
+  border-left: 11px solid transparent;
+  position: absolute;
+  top: 15px;
+  right: 9990px;
+  z-index: 10;
+}
+
+.schedule__office-hours {
+  width: 160px;
+  height: 72px;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(23,59,117,0.55);
+  background-color: #ffffff;
+  position: absolute;
+  top: 37px;
+  right: 9990px;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  color: #221f1f;
+  text-align: left;
+  padding-left: 13px;
+  z-index: 6;
+}
+
+.dropdown__schedule:before {
+  content: "";
+  display: block;
+  height: 55px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.schedule__work-week {
+  display: inline-block;
+  font-weight: bold;
+  color: #ec1e79;
+  margin-top: 13px;
+}
+
+.schedule__lunch-time {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.dropdown__schedule:hover  .schedule__visual-triangle {
+   right: 0px;
+}
+
+.dropdown__schedule:hover .schedule__office-hours {
+  right: 0px;
+}

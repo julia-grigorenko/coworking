@@ -1,0 +1,17 @@
+.main-header__logo {
+  width: 50%;
+  float: left;
+}
+
+.logo__link {
+  width: 99px;
+  height: 51px;
+  display: block;
+  overflow: hidden;
+  margin-top: 13px;
+}
+
+.logo__img {
+  width: 100%;
+  height: auto;
+}

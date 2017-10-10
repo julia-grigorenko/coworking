@@ -1,3 +1,90 @@
-.price__img {
+.price__list {
+  width: 860px;
+  font-family: "Gotham Pro";
+  font-size: 0px;
+  margin-left: 3px;
+  margin-bottom: 36px;
+}
 
+.price__item {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 41px;
+  margin-right: 55px;
+
+}
+
+.price__item:nth-child(3n){
+  margin-right: 0px;
+}
+
+.price__illustration {
+  width: 250px;
+  height: 153px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+}
+.price__img {
+  width: 100%;
+  height: auto;
+}
+
+.dark-overlay {
+  width: 250px;
+  height: 153px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+  background-color: #343449;
+  opacity: 0.85;
+}
+
+.price__name {
+  width: 250px;
+  height: 88px;
+  position: absolute;
+  top:  0px;
+  left: 1px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #5dd1f8;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 57px;
+}
+
+.price__name .price__name_extra {
+margin-top: -37px;
+}
+
+.price__name_extra {
+  display:block;
+  color: #ec1e79;
+}
+
+.price__title {
+  color: #221f1f;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 23px;
+  margin-right: -4px;
+  line-height: 22px;
+}
+
+.price__text {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 21px;
+  margin-top: -14px;
 }

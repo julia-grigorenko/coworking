@@ -1,3 +1,10 @@
 /*@import url("/fonts/fonts.css");*/
 @import url("layout/base.css");
+@import url("components/logo.css");
+@import url("components/contacts.css");
+@import url("components/dropdown.css");
+@import url("components/breadcrumbs.css");
+@import url("components/nav.css");
 @import url("components/price.css");
+@import url("components/mainfooter.css");
+@import url("components/mainfooter.css");

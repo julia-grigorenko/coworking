@@ -1,0 +1,86 @@
+.main-nav {
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 12px;
+  color: #ec1e79;
+  text-transform: uppercase;
+}
+
+.main-nav__item {
+  margin-bottom: 32px;
+  padding-left: 38px;
+  position: relative;
+  color: #ec1e79;
+  letter-spacing: 1px;
+}
+
+.main-nav__item:hover {
+  color: #221f1f;
+}
+.main-nav__item a {
+  color: inherit;
+}
+
+.main-nav__item-current {
+  color: #221f1f;
+}
+
+.main-nav__link-about:before {
+  content: "";
+  width: 17px;
+  height: 15px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url(../../img/main_icon-pink.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.main-nav__item-current .main-nav__link-about:before {
+  background-image: url(../../img/main_icon-black.png);
+}
+
+.main-nav__link-about:hover:before {
+  background-image: url(../../img/main_icon-black.png);
+}
+
+.main-nav__link-prices:before {
+  content: "";
+  width: 20px;
+  height: 17px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url(../../img/price_icon-pink.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.main-nav__item-current .main-nav__link-prices:before {
+  background-image: url(../../img/price_icon-black.png);
+}
+
+.main-nav__link-prices:hover:before {
+  background-image: url(../../img/price_icon-black.png);
+}
+
+.main-nav__link-comments:before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  top: -1px;
+  left: -1px;
+  position: absolute;
+  background-image: url(../../img/comments_icon-pink.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.main-nav__item-current .main-nav__link-comments:before {
+  background-image: url(../../img/comments_icon-black.png);
+}
+
+.main-nav__link-comments:hover:before {
+  background-image: url(../../img/comments_icon-black.png);
+}
