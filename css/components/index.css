@@ -1,0 +1,44 @@
+.index-wrapper {
+  height: 100%;
+  background-image: url(../../img/indexbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-logo-wrapper {
+  width: 180px;
+	margin: auto;
+	position: absolute;
+	top: 50%; left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+}
+
+.index-logo-img {
+  margin: 0 auto;
+  width: 160px;
+  height: 120px;
+}
+
+.logo-img {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.index-btn {
+display: block;
+margin-top: 32px;
+width: 180px;
+border: 3px solid #ec1e79;
+line-height: 36px;
+font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+text-align: center;
+color: #ec1e79;
+transition: all 0.3s;
+}
