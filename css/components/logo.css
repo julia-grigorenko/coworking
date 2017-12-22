@@ -1,6 +1,8 @@
 .main-header__logo {
-  width: 50%;
-  float: left;
+  /*width: 50%;*/
+  /*display: inline-block;*/
+  /*float: left;*/
+  flex-grow: 1;
 }
 
 .logo__link {

@@ -10,8 +10,8 @@
   border-bottom:  11px solid #ffffff;
   border-left: 11px solid transparent;
   position: absolute;
-  top: 15px;
-  right: 9990px;
+  top: -21px;
+  right: 0px;
   z-index: 10;
 }
 
@@ -32,14 +32,13 @@
   z-index: 6;
 }
 
-.dropdown__schedule:before {
+.dropdown__schedule:after {
   content: "";
-  display: block;
-  height: 55px;
-  right: 0px;
-  left: 0px;
-  top: 0px;
   position: absolute;
+  height: 105px;
+  width: 170px;
+  right: 0px;
+  top: 10px;
 }
 
 .schedule__work-week {
@@ -52,10 +51,6 @@
 .schedule__lunch-time {
   display: inline-block;
   margin-top: 5px;
-}
-
-.dropdown__schedule:hover  .schedule__visual-triangle {
-   right: 0px;
 }
 
 .dropdown__schedule:hover .schedule__office-hours {

@@ -75,8 +75,14 @@ button, button:hover, button:active {
 }
 
 .container {
-  width: 1060px;
   margin: 0 auto;
+  width: 1060px;
+  min-height: 77px;
+}
+
+.container-header {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .clearfix:after {
@@ -112,7 +118,7 @@ button, button:hover, button:active {
   margin-top: 25px;
   margin-bottom: 50px;
   margin-left: 2px;
-  letter-spacing: -1px; 
+  letter-spacing: -1px;
 }
 
 .main-footer {

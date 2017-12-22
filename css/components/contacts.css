@@ -1,6 +1,10 @@
+address {
+  margin-right: 40px;
+}
+
 .main-header__contacts {
   width: 201px;
-  float: right;
+  /*float: right;*/
   display: inline-block;
   text-align: right;
 }
@@ -16,20 +20,19 @@
 }
 
 .contacts__schedule {
-  font-family: "Open Sans";
-  font-weight: bold;
-  font-size: 14px;
-  color: #ec1e79;
-  text-decoration: underline;
-  /*margin-top: 0px;*/
+  position: relative;
   display: block;
   margin-left: 86px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  color: #ec1e79;
+  text-decoration: underline;
 }
 
 .contacts__schedule:hover {
+  margin-left: 86px;
   color: #769dcd;
-  font-family: "Open Sans";
   font-weight: bold;
-  font-size: 14px;
   text-decoration: underline;
 }
