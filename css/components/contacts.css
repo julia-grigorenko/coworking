@@ -1,11 +1,9 @@
 address {
-  margin-right: 40px;
+  margin-right: 7px;
 }
 
 .main-header__contacts {
   width: 201px;
-  /*float: right;*/
-  display: inline-block;
   text-align: right;
 }
 

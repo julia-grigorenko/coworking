@@ -1,0 +1,108 @@
+.main__header {
+  margin-top: -41px;
+  margin-bottom: 26px;
+  width: 879px;
+  height: 354px;
+  background-image: url(../../img/main-bg.jpg);
+}
+
+.main-content__title {
+  margin: 0px;
+  padding-top: 153px;
+  padding-left: 66px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 49px;
+  line-height: 49px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.offer {
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 700px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #221f1f;
+}
+
+.offer-title {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #221f1f;
+}
+
+.offer-list {
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+  width: 700px;
+  list-style-type: disc;
+}
+
+.offer-item {
+  margin-left: 35px;
+  color: #ec1e79;
+}
+
+.offer-item-text {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #221f1f;
+}
+
+.offer-sale {
+  padding: 15px 33px;
+  color: #ffffff;
+  background-color: #27273e;
+}
+
+.sale-marker {
+  font-weight: bold;
+  color: #ec1e79;
+}
+
+.partners-title {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 49px;
+  line-height: 49px;
+  font-weight: bold;
+  color: #221f1f;
+}
+
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.partners-item {
+  display: flex;
+  margin: auto;
+  padding-bottom: 50px;
+  flex-basis: 30%;
+}
+
+.partners-img {
+  filter: grayscale(100%);
+}
+
+.partners-img:hover {
+  filter: none;
+  transition: .7s;
+}
