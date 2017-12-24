@@ -1,0 +1,173 @@
+.comments-form {
+  width: 703px;
+  height: 400px;
+  margin-bottom: 70px;
+  padding: 29px 70px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  font-family: 'Gotham Pro', arial;
+  color: #221f1f;
+}
+
+.comments-form__header {
+  margin: 0px;
+  padding: 0px;
+  font-size: 49px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.comments-form__form {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+  font-family: 'Gotham Pro', arial;
+  color: #221f1f;
+  font-size: 14px;
+
+}
+
+.comments-form__user-data {
+    margin-bottom: 20px;
+}
+
+.comments-form__item {
+  margin: 0px;
+  padding: 0px;
+  width: 270px;
+  display: inline-block;
+}
+
+.comments-form__user-data > .comments-form__item:nth-child(1) {
+  margin-right: 10px;
+}
+
+.comments-form__textinput {
+  margin: 0px;
+  padding: 0px;
+  width: 260px;
+  margin-top: 10px;
+  height: 50px;
+  color: #a9a8a8;
+  padding-left: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+label {
+  margin: 0px;
+  padding: 0px;
+}
+
+.comments-form__message {
+  margin-bottom: 10px;
+}
+
+.comments-form__textarea {
+  width: 545px;
+  height: 90px;
+  padding-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  resize: none;
+  font-size: 14px;
+  color: #221f1f;
+}
+
+.comments-form__textarea:focus {
+  outline-color: #ec1e79;
+}
+
+.comments-form__photo-submit {
+  width: 545px;
+}
+
+fieldset {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.radio-filter {
+  margin: 0px;
+  padding: 0px;
+}
+
+.filter-option {
+display: inline-block;
+width: 45px;
+position: relative;
+padding-left: 25px;
+
+}
+
+.comments-form__photo-information {
+  display: inline-block;
+}
+
+.comments-form__button {
+  float: right;
+  position: relative;
+  display: inline-block;
+  background-color: #27273e;
+  border: 1px solid #27273e;
+  border-radius: 5px;
+  height: 45px;
+  width: 141px;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.comments-form__button:hover {
+    background-color: #ec1e79;
+    border: 1px solid #ec1e79;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+
+input[type="radio"] + label {
+  cursor: pointer;
+}
+
+input[type="radio"] + label::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 16px;
+    width: 16px;
+    margin: 0px;
+    border: 2px solid #cbcbcb;
+    border-radius: 50%;
+    background:transparent;
+}
+
+input[type="radio"]:checked + label::before {
+    border: 2px solid #ec1e79;
+    background-image: url(../../img/ellipse-3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input[type="radio"]:checked + label {
+  color: #ec1e79;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

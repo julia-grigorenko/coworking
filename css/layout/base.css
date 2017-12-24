@@ -71,7 +71,7 @@ button, button:hover, button:active {
 .wrapper:after {
   content: "";
   display: block;
-  height: 75px;
+  height: 145px;
 }
 
 .container {

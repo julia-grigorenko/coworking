@@ -55,7 +55,9 @@
           <h1 class="content__title">Отзывы</h1>
           <ul class="feedback-list">
             <li class="feedback-item">
-              <img class="feedback-img" src="img/pavel-feed.jpg" width="160" height="160" alt="Фото пользователя">
+              <div class="img_wrapper">
+                <img class="feedback-img" src="img/pavel-feed.jpg" width="160" height="160" alt="Фото пользователя">
+              </div>
               <div class="feedback-description">
                 <p class="feedback-date">12.10.2016</p>
                 <p class="feedback-person">Олег Павлов</p>
@@ -63,7 +65,9 @@
               </div>
             </li>
             <li class="feedback-item">
-              <img class="feedback-img" src="img/ernest-feed.jpg" width="160" height="160" alt="Фото пользователя">
+              <div class="img_wrapper">
+                <img class="feedback-img" src="img/ernest-feed.jpg" width="160" height="160" alt="Фото пользователя">
+              </div>
               <div class="feedback-description">
                 <p class="feedback-date">01.02.2016</p>
                 <p class="feedback-person">Эрнест Изиль</p>
@@ -71,7 +75,9 @@
               </div>
             </li>
             <li class="feedback-item">
-              <img class="feedback-img" src="img/logo-feed.png" width="160" height="160" alt="Фото пользователя">
+              <div class="img_wrapper">
+                <img class="feedback-img" src="img/logo-feed.png" width="160" height="160" alt="Фото пользователя">
+              </div>
               <div class="feedback-description">
                 <p class="feedback-date">22.12.2015</p>
                 <p class="feedback-person">Елена Сургай</p>
@@ -79,7 +85,9 @@
               </div>
             </li>
             <li class="feedback-item">
-              <img class="feedback-img" src="img/natalya-feed.jpg" width="160" height="160" alt="Фото пользователя">
+              <div class="img_wrapper">
+                <img class="feedback-img" src="img/natalya-feed.jpg" width="160" height="160" alt="Фото пользователя">
+              </div>
               <div class="feedback-description">
                 <p class="feedback-date">14.08.2015</p>
                 <p class="feedback-person">Наталья Осадчая</p>
@@ -87,9 +95,67 @@
               </div>
             </li>
           </ul>
+          <section class="pagination">
+             <div class="pagination__description">
+               Страница 1 из 7
+             </div>
+             <ul class="pagination__list">
+               <li class="pagination__item pagination__item-disabled">&lt;</li>
+               <li class="pagination__item pagination__item-current">1</li>
+               <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+               <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+               <li class="pagination__item"><a class="pagination__link" href="#">4</a></li>
+               <li class="pagination__item"><a class="pagination__link" href="#">5</a></li>
+               <li class="pagination__item"><a class="pagination__link" href="#">6</a></li>
+               <li class="pagination__item"><a class="pagination__link" href="#">7</a></li>
+               <li class="pagination__item"><a class="pagination__link" href="#">></a></li>
+            </ul>
+          </section>
+          <section class="comments-form">
+            <h2 class="comments-form__header">Оставить отзыв</h2>
+            <form class="comments-form__form" method="post" action="https://echo/index.html">
+              <div class="comments-form__user-data">
+                <p class="comments-form__item">
+                  <label for="comments-form-username">Ваше имя:</label>
+                  <input id="comments-form-username" class="comments-form__textinput" type="text" name="username" size="40" placeholder="Андрей">
+                </p>
+                <p class="comments-form__item">
+                  <label for="comments-form-vk">Ссылка на профиль VK:</label>
+                  <input id="comments-form-vk" class="comments-form__textinput" type="text" name="vk" size="140" placeholder="vk.com/example">
+                </p>
+              </div>
+              <div class="comments-form__message">
+                <p class="comments-form__item">
+                  <label for="comments-form-text">Текст отзыва</label>
+                  <textarea class="comments-form__textarea" id="comments-form-text" placeholder="Мне понравилось"></textarea>
+                </p>
+              </div>
+              <div class="comments-form__photo-submit">
+
+                <fieldset class="comments-form__photo-information">
+                  <legend>Отображать фото в отзыве?</legend>
+                  <ul class="radio-filter">
+                    <li class="filter-option">
+                      <input id="filter-photo-display" class="visually-hidden filter-input-radio"
+                        type="radio" name="comments-form__photo" value="display" checked>
+                      <label class="filter-radio filter-radio-display" for="filter-photo-display">Да</label>
+                    </li>
+                    <li class="filter-option">
+                      <input id="filter-photo-hide" class="visually-hidden filter-input-radio"
+                        type="radio" name="comments-form__photo" value="hide">
+                      <label class="filter-radio filter-radio-hide" for="filter-photo-hide">Нет</label>
+                    </li>
+                  </ul>
+                </fieldset>
+                <button class="button comments-form__button" type="submit">Отправить</button>
+              </div>
+            </form>
+          </section>
         <main>
       </div>
     </section>
+
+
     <footer class="main-footer">
       <div class="container clearfix">
         <section class="main-footer__copyright">

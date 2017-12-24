@@ -42,3 +42,8 @@ text-align: center;
 color: #ec1e79;
 transition: all 0.3s;
 }
+
+.index-btn:hover {
+  color: #ffffff;
+  background-color: #ec1e79;
+}
