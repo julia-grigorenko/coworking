@@ -35,7 +35,7 @@
   margin: 0px;
   padding: 0px;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 21px;
   color: #b7b7b7;
 }
 
@@ -43,12 +43,14 @@
   margin: 0px;
   padding: 0px;
   font-weight: bold;
-  line-height: 38px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .feedback-text {
   margin: 0px;
   padding: 0px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;;
   margin-bottom: 25px;
 }

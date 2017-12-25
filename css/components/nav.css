@@ -1,7 +1,7 @@
 .main-nav {
-  font-family: "Gotham Pro";
+  font-family: "Open Sans";
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   color: #ec1e79;
   text-transform: uppercase;
 }
@@ -19,6 +19,9 @@
 }
 .main-nav__item a {
   color: inherit;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .main-nav__item-current {

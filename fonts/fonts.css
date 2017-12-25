@@ -1,23 +1,49 @@
 @font-face {
-    font-family: "Gotham Pro";
-    src: url("/fonts/GothamPro-Light.woff2") format("woff2"),
-         url("/fonts/GothamPro-Light.woff") format("woff");
-    font-weight: 300;
+    font-family: "GothamProBold";
+    src: url("GothamProBold/GothamProBold.eot");
+    src: url("GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("GothamProBold/GothamProBold.woff") format("woff"),
+    url("GothamProBold/GothamProBold.ttf") format("truetype");
     font-style: normal;
-}
-
-@font-face {
-    font-family: "Gotham Pro";
-    src: url("/fonts/GothamPro-Bold.woff2") format("woff2"),
-                 url("/fonts/GothamPro-Bold.woff") format("woff");
     font-weight: bold;
-    font-style: normal;
 }
 
 @font-face {
-    font-family: "Gotham Pro";
-    src: url("/fonts/GothamPro-LightItalic.woff2") format("woff2"),
-                 url("/fonts/GothamPro-LightItalic.woff") format("woff");
-    font-weight: 300;
-    font-style: italic;
-}
+			font-family: "GothamProItalic";
+			src: url("GothamProItalic/GothamProItalic.eot");
+			src: url("GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+			url("GothamProItalic/GothamProItalic.woff") format("woff"),
+			url("GothamProItalic/GothamProItalic.ttf") format("truetype");
+			font-style: italic;
+			font-weight: normal;
+	}
+
+  @font-face {
+			font-family: "GothamProLight";
+			src: url("GothamProLight/GothamProLight.eot");
+			src: url("GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+			url("GothamProLight/GothamProLight.woff") format("woff"),
+			url("GothamProLight/GothamProLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+  @font-face {
+			font-family: "GothamProLightItalic";
+			src: url("GothamProLightItalic/GothamProLightItalic.eot");
+			src: url("GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+			url("GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+			url("GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+			font-style: italic;
+			font-weight: normal;
+	}
+
+  @font-face {
+			font-family: "OpenSansBold";
+			src: url("OpenSansBold/OpenSansBold.eot");
+			src: url("OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+			url("OpenSansBold/OpenSansBold.woff") format("woff"),
+			url("OpenSansBold/OpenSansBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: bold;
+	}

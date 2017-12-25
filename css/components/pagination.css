@@ -1,7 +1,8 @@
 .pagination {
-  font-family: 'Roboto Light', arial;
+  font-family: 'Gotham Pro', arial;
+  font-weight: lighter;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 21px;
   margin-top: 45px;
   margin-bottom: 70px;
   margin-left: 220px;
